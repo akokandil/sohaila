@@ -46,6 +46,7 @@ header h1{
     font-size: 60px;
     font-weight: 900;
     line-height: 40px;
+    word-spacing: 10px;
 }
 header .header-caption p{
     font-family:'Source Sans 3' ;
@@ -260,6 +261,54 @@ section{
 }
 #journal .row .card .card-img-overlay a{
     color: #FF305B;
+}
+/* ////////////////////////////////////////////////////////////////// */
+
+#video .video-head{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#video .video-head h2{
+    color: #333333;
+    font-family:'Source Sans 3';
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-top: 6%;
+}
+#video .video-head .head-line{
+    width: 170px;
+    height: 1px;
+    background-color: #FF305B;
+    top: 15px;
+    position: relative;
+}
+#video .video-head .head-line::before{
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    position: absolute;
+    top: -7px;
+    left: 25%;
+}
+#video .video-head .head-line::after{
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    position: absolute;
+    top: 7px;
+    left: 25%;
+}
+
+
+#video .row video{
+    height: 450px;
+    margin-left: 25%;
 }
 
 /* ///////////////////////////////////////////////////////////////// */
